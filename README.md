@@ -1,8 +1,10 @@
 # HR-Employee-Attrition-Prediction
 
-This project focuses on analyzing employee data and predicting whether an employee is likely to leave the company using Logistic Regression.\
+This project focuses on analyzing employee data and predicting whether an employee is likely to leave the company using Logistic Regression.
+
 
 Project Overview
+
 Employee attrition is a major concern for organizations. This project uses machine learning techniques to:
 Analyze HR dataset
 Identify patterns in employee behavior
