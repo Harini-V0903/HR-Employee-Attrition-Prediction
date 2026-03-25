@@ -1,59 +1,56 @@
-# HR-Employee-Attrition-Prediction
+# 📊 HR Employee Attrition Prediction
 
-This project focuses on analyzing employee data and predicting whether an employee is likely to leave the company using Logistic Regression.
+A machine learning project to analyze employee data and predict whether an employee is likely to leave the company.
 
+---
 
-Project Overview
+## 🚀 Project Overview
 
-Employee attrition is a major concern for organizations. This project uses machine learning techniques to:
-Analyze HR dataset
-Identify patterns in employee behavior
-Predict whether an employee will leave the company
+Employee attrition is a major concern for organizations.  
+This project uses machine learning to:
 
-Technologies Used
+- 📌 Analyze HR dataset  
+- 📌 Identify employee behavior patterns  
+- 📌 Predict attrition (`0 = Stay`, `1 = Leave`)  
 
-Python 
-Pandas (Data Processing)
-Scikit-learn (Machine Learning)
-NumPy
-Jupyter Notebook
+---
 
-Dataset
+## 🧠 Technologies Used
 
-The dataset contains employee details such as:
-Satisfaction Level
-Last Evaluation
-Number of Projects
-Average Monthly Hours
-Time Spent in Company
-Work Accident
-Promotion in Last 5 Years
-Department
-Salary
-Target Variable: left (0 = Stay, 1 = Leave)
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Jupyter Notebook  
 
-Workflow
+---
 
-Load dataset
-Preprocess data (One-Hot Encoding)
-Split into training & testing sets
-Train Logistic Regression model
-Evaluate accuracy
+## 📂 Dataset Features
 
-Model Used
+- Satisfaction Level  
+- Last Evaluation  
+- Number of Projects  
+- Average Monthly Hours  
+- Time Spent in Company  
+- Work Accident  
+- Promotion (Last 5 Years)  
+- Department  
+- Salary  
 
-Logistic Regression
-Logistic Regression is used for binary classification problems
+---
 
-Manual Prediction Logic
+## ⚙️ Workflow
 
-The project also includes a manual implementation of prediction using:
-Model coefficients
-Intercept
-Sigmoid function
-This helps in understanding how predictions are made internally.
+1. 📥 Load dataset  
+2. 🔧 Data preprocessing (One-Hot Encoding)  
+3. ✂️ Train-test split  
+4. 🤖 Train Logistic Regression model  
+5. 📊 Evaluate accuracy  
 
-Results
+---
 
-Model accuracy is evaluated using test data
-Provides insight into employee attrition patterns
+## 📈 Model
+
+- Logistic Regression (Binary Classification)
+
+---
